@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_default_shape_shadowed"/>
+</selector><!-- From: file:/C:/Users/Karl/AndroidStudioProjects/AnaStop_Restartable/app/src/main/res/drawable/button_default.xml -->

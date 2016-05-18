@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme_Widget" />
+
+    <style name="AppTheme_Widget.Button">
+        <item name="android:background">@drawable/button_default</item>
+        <item name="android:textColor">@color/button_text_default</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="AppTheme_Widget.Button_No_Ripple" parent="AppTheme_Widget.Button">
+        <item name="android:background">@drawable/button_no_ripple</item>
+    </style>
+
+</resources>
+

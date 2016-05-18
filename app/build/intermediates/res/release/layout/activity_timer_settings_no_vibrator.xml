@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.neuroleap.speachandlanguage.Activities.SettingsActivity"
+              android:background="@color/black"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="0dp"
+                    tools:context="com.neuroleap.speachandlanguage.Activities.SettingsActivity"
+                    android:background="@color/black"
+                    android:layout_weight=".6"
+        >
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alarm_length"
+            android:id="@+id/tvAlarmLength"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="left"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/white"
+            android:paddingLeft="16dp"
+            android:paddingTop="4dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAlarmLength"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="30"
+            android:numeric="integer"
+            android:password="false"
+            android:maxLength="3"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/tvAlarmLength"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/line1"
+            android:layout_below="@+id/etAlarmLength"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5">
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:background="@color/white">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="@string/done"
+                        android:id="@+id/btnDone"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/etAlarmLength"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight=".5">
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9">
+        </FrameLayout>
+</LinearLayout><!-- From: file:/C:/Users/Karl/AndroidStudioProjects/AnaStop_Restartable/app/src/main/res/layout/activity_timer_settings_no_vibrator.xml -->

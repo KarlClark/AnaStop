@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clarkgarrett.stopwatchandtimer"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme2" >
+        <activity
+            android:name="com.clarkgarrett.stopwatchandtimer.Activities.StartupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.clarkgarrett.stopwatchandtimer.Activities.StopwatchActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.clarkgarrett.stopwatchandtimer.Activities.StartupActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.clarkgarrett.stopwatchandtimer.Activities.TimerActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.clarkgarrett.stopwatchandtimer.Activities.StartupActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.clarkgarrett.stopwatchandtimer.Activities.TimerSettingsActivity"
+            android:parentActivityName="com.clarkgarrett.stopwatchandtimer.Activities.TimerActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name="com.clarkgarrett.stopwatchandtimer.Activities.StopwatchSettingsActivity"
+            android:parentActivityName="com.clarkgarrett.stopwatchandtimer.Activities.StopwatchActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+
+        <receiver android:name="com.clarkgarrett.stopwatchandtimer.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.clarkgarrett.stopwatchandtimer.Alarm" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

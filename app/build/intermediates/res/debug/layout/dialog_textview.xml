@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout is used by AlertDialog.Builder so we can set
+     the text size and text color -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:text="@string/alarm_length_warning"
+          android:textColor="@color/white"
+          android:id="@+id/dialog_textview"
+          android:padding="16dp">
+
+</TextView><!-- From: file:/C:/Users/Karl/AndroidStudioProjects/AnaStop_Restartable/app/src/main/res/layout/dialog_textview.xml -->

@@ -1,0 +1,7 @@
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\classes\debug
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-a610c643ab956ad3218a36e069cb8b579d5e5d6d.jar
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\classes-7fc70732398f8367ed2059e388a7b061c649e16a.jar
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\classes-aa9b3520f0203ec16a75927d8c75f3b827d79002.jar
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-df845ca905e96c6c695d327a9c0819011f8bddcf.jar
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\classes-b01722127c502f25bc69bceafe3e55473b5e42e7.jar
+C:\Users\Karl\AndroidStudioProjects\AnaStop_Restartable\app\build\intermediates\pre-dexed\debug\classes-662d0df11d834908363fcfec2b003faea07a6f14.jar

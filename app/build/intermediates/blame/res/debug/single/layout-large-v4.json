@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_start_screen.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_start_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_timer_settings_vibrator.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_timer_settings_vibrator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_stop_watch.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_stop_watch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_timer_settings_no_vibrator.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_timer_settings_no_vibrator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_stopwatch_settings.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_stopwatch_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_timer.xml",
+        "source": "C:\\Users\\Karl\\AndroidStudioProjects\\AnaStop_Restartable\\app\\src\\main\\res\\layout-large\\activity_timer.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_timer"
+        app:showAsAction="always"
+        android:title="@string/timer"/>
+
+</menu>
+<!-- From: file:/C:/Users/Karl/AndroidStudioProjects/AnaStop_Restartable/app/src/main/res/menu/menu_stopwatch.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_color_shadow"/>
+        </shape>
+    </item>
+
+    <item>
+        <inset android:drawable="@drawable/button_default_shape" android:insetBottom="5dp"/>
+    </item>
+</layer-list><!-- From: file:/C:/Users/Karl/AndroidStudioProjects/AnaStop_Restartable/app/src/main/res/drawable/button_default_shape_shadowed.xml -->
